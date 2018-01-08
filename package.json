@@ -4,8 +4,8 @@
   "description": "Adds 'path' property to each file's metadata, which can be used as a URL",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "pretty": "prettier --write lib/**/*.js"
+    "pretty": "prettier --write lib/**/*.js",
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,8 @@
   "homepage": "https://github.com/greduan/metalsmith-path",
   "dependencies": {},
   "devDependencies": {
+    "ava": "^0.24.0",
+    "metalsmith": "^2.3.0",
     "prettier": "^1.9.2"
   }
 }
