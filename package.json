@@ -4,23 +4,24 @@
   "description": "Adds 'path' property to each file's metadata, which can be used as a URL",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pretty": "prettier --write lib/**/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Greduan/metalsmith-path.git"
+    "url": "git://github.com/greduan/metalsmith-path.git"
   },
   "keywords": [
     "metalsmith"
   ],
-  "author": "Eduán Lávaque <eduanlavaque@gmail.com>",
+  "author": "Eduardo Lavaque <me@greduan.com>",
   "license": "WTFPL",
   "bugs": {
-    "url": "https://github.com/Greduan/metalsmith-path/issues"
+    "url": "https://github.com/greduan/metalsmith-path/issues"
   },
-  "homepage": "https://github.com/Greduan/metalsmith-path",
-  "dependencies": {
-    "metalsmith": "^0.5.0",
-    "mocha": "^1.18.2"
+  "homepage": "https://github.com/greduan/metalsmith-path",
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^1.9.2"
   }
 }
