@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-path",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Adds 'path' property to each file's metadata, which can be used as a URL",
   "main": "lib/index.js",
   "scripts": {
