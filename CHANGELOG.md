@@ -26,3 +26,7 @@ Big rewrite, inspired by a PR.
 
 - `extensions` configurable option allowing you to match files besides files
   with a `.html` extension.
+
+## [0.3.1]
+
+Just to update the README for the npm page.
